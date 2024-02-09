@@ -8,12 +8,11 @@ Parts of Speech Tagger is a Streamlit Application that takes a Sentence as input
 
 Some important libraries required for building this project are:
 
-  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/tensorflow.png" height="30" align="center"/> Tensorflow
-  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/keras.png" height="30" align="center"/> Keras
-  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/icons8-python-96.png" height="30" align="center"/> Tkinter
-  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/pandas.png" height="30" align="center"/> Pandas
-  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/numpy.png" height="30" align="center"/> Numpy
-  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/icons8-python-96.png" height="30" align="center"/> BeautifulSoup
+- <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/tensorflow.png" height="30" align="center"/> Tensorflow
+- <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/keras.png" height="30" align="center"/> Keras
+- <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/pandas.png" height="30" align="center"/> Pandas
+- <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/numpy.png" height="30" align="center"/> Numpy
+- <img src="https://github.com/Mohit-Harsh/Parts-of-speech-tagger/blob/main/assets/streamlit-mark-color.png" height="20" align="center"/> Streamlit
     
 For further details about the requirements refer the requirements.txt file.
 
@@ -24,15 +23,13 @@ For further details about the requirements refer the requirements.txt file.
 * Download the data - corpus from nltk.
 * Initialize and fit the Tokenizers on the downloaded corpus:
   
-    * Sentence_Tokenizer - to tokenize input texts
-    * Tag_Tokenizer - to tokenize output tags
+  - Sentence_Tokenizer - to tokenize input texts
+  - Tag_Tokenizer - to tokenize output tags
       
 * Convert texts to sequences.
 * One hot encode output tags.
 * Split the data into Train, Test and Validation sets.
 * Pad the Sequences to max length.
-
-* Refer [POS Tagger.ipynb](https://github.com/Mohit-Harsh/Parts-of-speech-tagger/blob/391d7424e82f45228c303aa629a2aa81b63278ec/POS%20Tagger.ipynb) file for python code.
 
 ### 2. Build
 
@@ -46,8 +43,6 @@ For further details about the requirements refer the requirements.txt file.
 * Train the model.
 * Save the model and the tokenizer.
 
-* Refer [POS Tagger.ipynb](https://github.com/Mohit-Harsh/Parts-of-speech-tagger/blob/391d7424e82f45228c303aa629a2aa81b63278ec/POS%20Tagger.ipynb) file for python code.
-
 ### 3. Deploy
 
 * Load the saved Tokenizers and LSTM model.
@@ -59,6 +54,11 @@ For further details about the requirements refer the requirements.txt file.
 * Use list indexing to get the corresponding tag name.
 * You can also use streamlit to deploy the model as a Web Application.
 
-* Refer []
-* Refer [streamlit-app.py](https://github.com/Mohit-Harsh/Parts-of-speech-tagger/blob/main/streamlit-app.py) file for streamlit application python code.
+# Reference
+
+Refer [POS Tagger.ipynb](https://github.com/Mohit-Harsh/Parts-of-speech-tagger/blob/391d7424e82f45228c303aa629a2aa81b63278ec/POS%20Tagger.ipynb) file for preprocessing and building the model.
+
+Refer [Testing.ipynb](https://github.com/Mohit-Harsh/Parts-of-speech-tagger/blob/main/Testing.ipynb) file for model inference.
+
+Refer [streamlit-app.py](https://github.com/Mohit-Harsh/Parts-of-speech-tagger/blob/main/streamlit-app.py) file for building streamlit application.
 
